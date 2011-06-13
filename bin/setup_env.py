@@ -57,7 +57,8 @@ class DevInstall(Install):
     def __init__(self):
         self.package_list = ['g++', 'vim', 'subversion', 'make', 'python2.6-dev', 'git-core']
         self.third_dir = '/opt/miserware-libs'
-        self.thirdparty_url = 'https://slug.internal.miserware.com/svn/mw-3rdparty-lib/trunk'
+        self.thirdparty_url = ''
+        assert(self.thirdparty_url)
 
     def install_custom(self):
         self.install_3rdparty_libs()
