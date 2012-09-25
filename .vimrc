@@ -19,3 +19,4 @@ let syntastic_check_on_open = 1
 let syntastic_enable_signs = 1
 let syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['python']}
 set backspace=2
+nnoremap <esc> :noh<return><esc>
